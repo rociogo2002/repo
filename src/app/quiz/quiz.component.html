@@ -12,15 +12,11 @@
 
       <ng-container *ngIf="!isQuizCompleted">
           <div class="d-flex justify-content-around py-3">
-              <div class="score">
-                  <h5>{{points}} Points</h5>
-              </div>
+              
               <div class="question-remain">
                   <span style="font-style: italic;">Question {{currentQuestion+1}} of {{questionList.length}}</span>
               </div>
-              <div class="timer">
-                  <h5>{{counter}} sec ⏱</h5>
-              </div>
+              
           </div>
           <div class="progress mb-3">
               <div class="progress-bar progress-bar-striped bg-success" role="progressbar" [ngStyle]="{'width':progress+'%'}" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -53,11 +49,12 @@
           <div class="row d-flex justify-content-between">
               <img style="width: 50%;" class="img-fluid col-sm-12 mx-auto" src="https://icon-library.com/images/celebration-icon-png/celebration-icon-png-7.jpg" alt="">
               <div class="result text-center col-md-6 col-sm-12">
-                  <h3>Congratulations!! <br>You have completed the quiz. <br>Below is your result:</h3>
+                   <br>You have completed the quiz. <br>Below is your result:
                   <p>Total Question Attempted : {{questionList.length}} </p>
                   <p>Total Correct Answered : {{correctAnswer}} </p>
                   <p>Total Wrong Answered : {{inCorrectAnswer}} </p>
-                  <p>Your Score : {{points}} Points </p>
+                  <button class="btn btn-color px-5 mb-5 w-100" routerLink="/Home">back to quiz</button>
+                  
               </div>
           </div>
       </ng-container>
