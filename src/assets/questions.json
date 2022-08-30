@@ -1,0 +1,148 @@
+{
+    "questions": [{
+            "questionText": " What was Freddie Mercury's real name?",
+            "options": [{
+                    "text": "Farrokh Bulsara",
+                    "correct": true
+                },
+                {
+                    "text": "Farrokh Buum"
+                },
+                {
+                    "text": "Freddie Mercury"
+                },
+                {
+                    "text": "Farrokh Mercury"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Eminem's 8 Mile is named after a road in which city?",
+            "options": [{
+                    "text": "New York"
+                },
+                {
+                    "text": "New Orleans"
+                },
+                {
+                    "text": "San Fransisco"
+                },
+                {
+                    "text": "Detroit",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": " Where was Tupac Shakur born?",
+            "options": [{
+                    "text": "Detroit"
+                },
+                {
+                    "text": "East Harlem, New York",
+                    "correct": true
+                },
+                {
+                    "text": "New Jearsey"
+                },
+                {
+                    "text": "Miami"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Who was the first lead guitarist of Metallica?",
+            "options": [{
+                    "text": "Jhon Lennon"
+                },
+                {
+                    "text": " Dave Mustaine",
+                    "correct": true
+                },
+                {
+                    "text": "Eric Clapton"
+                },
+                {
+                    "text": "Sugarhill Gang"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": " Who, to date, has won the most Grammys of all time?",
+            "options": [{
+                    "text": "Sir Georg Solti",
+                    "correct": true
+                },
+                {
+                    "text": "Sarah Palin"
+                },
+                {
+                    "text": "Olive Garden"
+                },
+                {
+                    "text": "Dee Snider"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Which Marvel movie's soundtrack won two Grammys?",
+            "options": [{
+                    "text": "Wonder Woman"
+                },
+                {
+                    "text": "Iron Man"
+                },
+                {
+                    "text": "Wanda Vision"
+                },
+                {
+                    "text": "Black Panter",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Jared Leto is the frontman of what band?",
+            "options": [{
+                    "text": "Creedence Clearwater Revival"
+                },
+                {
+                    "text": "30 Seconds to Mars",
+                    "correct": true
+                },
+                {
+                    "text": "backstreet boy"
+                },
+                {
+                    "text": "red hot chili peppers"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": " How many members are there in Korean boy band BTS?",
+            "options": [{
+                    "text": "7",
+                    "correct": true
+                },
+                {
+                    "text": "12"
+                },
+                {
+                    "text": "6"
+                },
+                {
+                    "text": "5"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        }
+      
+    ]
+}
